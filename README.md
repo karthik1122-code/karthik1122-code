@@ -7,7 +7,7 @@
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Live Showcase](https://img.shields.io/badge/Live_Demo-CogniSpace-black?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace.vercel.app)
+[![Live Showcase](https://img.shields.io/badge/Live_Demo-CogniSpace-black?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace-sigma.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karthik1122-code)
 [![Email](https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upparikarthik505@gmail.com)
 
@@ -96,7 +96,7 @@ interface EngineerProfile {
 - **Optimistic Concurrency Control (OCC):** Autosave pipeline debounced at 800ms with version tracking to eliminate write-race hazards without blocking typing flow.
 - **Sub-18ms SSE AI Stream:** Server-Sent Events endpoint streaming Google Gemini tokens directly into the document canvas with zero-latency browser `AbortSignal` cancellation.
 - **Resilient Multi-Layer Data Tier:** Express 5 backend with seamless fallback between MongoDB Atlas and embedded in-memory database engines.
-- 🔗 **[Explore Live Demo](https://cognispace.vercel.app) · [View Architecture & Code](https://github.com/karthik1122-code/cognispace)**
+- 🔗 **[Explore Live Demo](https://cognispace-sigma.vercel.app) · [View Architecture & Code](https://github.com/karthik1122-code/cognispace)**
 
 ---
 
@@ -150,7 +150,7 @@ interface EngineerProfile {
 Whether you are looking to hire a top-tier full-stack engineer, collaborate on high-impact AI products, or discuss modern web architecture:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Live Demo](https://img.shields.io/badge/Live_Portfolio-06B6D4?style=for-the-badge&logo=safari&logoColor=white)](https://cognispace.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live_Portfolio-06B6D4?style=for-the-badge&logo=safari&logoColor=white)](https://cognispace-sigma.vercel.app)
 [![Email](https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upparikarthik505@gmail.com)
 
 <br />
