@@ -1,29 +1,68 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:#060813,35:#111827,70:#1e1b4b,100:#06b6d4&height=200&section=header&text=Karthik%20Uppari&fontSize=50&fontColor=ffffff&fontAlignY=40&desc=Full-stack%20engineer%20%C2%B7%20AI%20products%20%C2%B7%20Hyderabad&descAlignY=64&descSize=17" width="100%" alt="Karthik Uppari" />
+<img src="assets/banner.svg" alt="Karthik Uppari — full-stack engineer building AI products, end to end" width="100%" />
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthik-uppari-4005a7373)
-[![CogniSpace](https://img.shields.io/badge/Live-CogniSpace-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace-sigma.vercel.app)
 [![Email](https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upparikarthik505@gmail.com)
+[![CogniSpace](https://img.shields.io/badge/Live-CogniSpace-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace-sigma.vercel.app)
+[![RecoverFlow](https://img.shields.io/badge/Live-RecoverFlow-06b6d4?style=for-the-badge&logo=vercel&logoColor=white)](https://recoverflow-ten.vercel.app)
 
 </div>
 
-### Hi, I'm Karthik 👋
+## 👋 Hi, I'm Karthik
 
-B.Tech CSE (AI/ML) student at **NIAT, Hyderabad** (2025–2029). I build full-stack, AI-integrated products end to end — UI, API, data and deploy — and I'm looking for **internships at product companies and early-stage startups**.
+I'm a **B.Tech CSE (AI/ML)** student at **NIAT, Hyderabad** (2025–2029). I build full-stack, AI-integrated products **end to end** — UI, API, data, deploy — and I ship them live.
 
-I care about products that are honest about what they do: saves that only say "Saved" when the server confirms, AI output you review before it lands, and automation with hard safety limits.
+I'm looking for **internships at product companies and early-stage startups** (Hyderabad, remote, or San Francisco).
 
-### 🚀 Projects
+What I care about: products that are honest about what they do. Saves that say "Saved" only when the server confirms. AI output you review before it lands, with undo. Automation with hard safety limits and a paper trail.
 
-| | Project | What it is | Highlights |
-|---|---|---|---|
-| 🧠 | **[CogniSpace](https://github.com/karthik1122-code/cognispace)** · [live](https://cognispace-sigma.vercel.app) | Notes, docs and a sprint board in one workspace, with an AI Copilot that edits the page you're on | TipTap block editor with `/` menu · Gemini responses streamed to the page, review before insert, undo · version history · drag-and-drop sprint board · ⌘K command palette · conflict-aware autosave |
-| ⚡ | **[RecoverFlow](https://github.com/karthik1122-code/recoverflow)** | Policy-first AI revenue recovery for failed Razorpay payments (Razorpay AI Buildathon, Track 03) | AI proposes → deterministic policy decides → human approves · HMAC-verified webhooks · hash-chained audit log · consent-safe English/Hinglish drafts · 20 tests, zero runtime dependencies |
-| ☁️ | [Nimbus](https://github.com/karthik1122-code/nimbus) | AI analytics SaaS landing/dashboard with 3D telemetry visuals | Next.js, React 19, Tailwind v4 |
-| 🍽️ | [Balaji Family Dhaba](https://github.com/karthik1122-code/balaji-chilukur-family-dhaba) | Digital menu site for a family restaurant | Semantic HTML, CSS, vanilla JS |
+## 🚀 Shipped projects
 
-### 🛠️ Stack
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/karthik1122-code/cognispace"><img src="assets/cognispace.svg" alt="CogniSpace" width="100%"/></a>
+<br/><a href="https://cognispace-sigma.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/karthik1122-code/cognispace"><b>Code</b></a>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/karthik1122-code/recoverflow"><img src="assets/recoverflow.svg" alt="RecoverFlow" width="100%"/></a>
+<br/><a href="https://recoverflow-ten.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/karthik1122-code/recoverflow"><b>Code</b></a>
+</td>
+</tr>
+<tr>
+<td align="center"><a href="https://cognispace-sigma.vercel.app"><img src="assets/cognispace-landing.png" alt="CogniSpace landing page" width="100%"/></a></td>
+<td align="center"><a href="https://recoverflow-ten.vercel.app"><img src="assets/recoverflow-landing.png" alt="RecoverFlow landing page" width="100%"/></a></td>
+</tr>
+</table>
+
+<details>
+<summary><b>🧠 CogniSpace — how it works</b></summary>
+
+- **Editor:** TipTap block editor with a `/` menu, toggles, to-dos and a selection toolbar.
+- **Copilot:** Gemini responses streamed over SSE. You review, insert, and can undo in one click. AI output is sanitized before it is rendered.
+- **Reliability:** autosave only reports *Saved* after the server confirms; offline retries with backoff; version check (optimistic concurrency) with a "load theirs / keep mine" flow.
+- **Safety nets:** version history with one-click restore, undo for deletes and AI inserts, JSON export, account deletion.
+- **Not yet:** real-time multiplayer — two tabs are detected, but there is no live co-editing.
+- **Stack:** React 19, TypeScript, Vite, Tailwind, Framer Motion, Express 5, MongoDB, Gemini. Vercel + Render.
+</details>
+
+<details>
+<summary><b>⚡ RecoverFlow — how it works</b></summary>
+
+- **Built for** the Razorpay AI Buildathon, Track 03 (AI Revenue Recovery).
+- **Flow:** failed payment → evidence-based diagnosis → policy engine → one bounded action → human approval → audit trail. The AI never moves money on its own.
+- **Policy codes:** `NO_CONSENT`, `HIGH_VALUE_REVIEW`, `EXCEPTION_QUEUE`, `LOW_CONFIDENCE`, `HUMAN_GATE`.
+- **Security:** HMAC-verified Razorpay webhooks, idempotent processing, hash-chained audit log, strict CSP, only `public/` is served.
+- **Quality:** zero runtime dependencies, 20 passing tests, a 21-scenario held-out evaluation suite, CI on every push.
+- **Honest limits:** demo data is synthetic and Razorpay is Test Mode only.
+</details>
+
+**Also built:** [Nimbus](https://github.com/karthik1122-code/nimbus) (AI analytics product site, front-end showcase with simulated data) · [Balaji Family Dhaba](https://github.com/karthik1122-code/balaji-chilukur-family-dhaba) ([live](https://balaji-chilukur-family-dhaba-fawn.vercel.app), digital menu site)
+
+## 🛠️ Toolbox
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -38,13 +77,23 @@ I care about products that are honest about what they do: saves that only say "S
 ![Gemini](https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-### 🧭 Experience
+## 🧭 Experience
 
-- **IoT & Robotics Trainee — T-Works** (Aug–Sep 2024): AI-based smart street lights.
-- **Student Intern — Airbac Labs** (Apr–Jul 2024): machine learning for stock prediction.
-- **Volunteer — Rubaroo** (Aug 2024): STEM awareness for 100+ students.
+| When | What |
+|---|---|
+| Aug–Sep 2024 | **IoT & Robotics Trainee, T-Works** — AI-based smart street lights |
+| Apr–Jul 2024 | **Student Intern, Airbac Labs** — machine learning for stock prediction |
+| Aug 2024 | **Volunteer, Rubaroo** — STEM awareness for 100+ students |
 
-### 📫 Reach me
+## 🔭 Next up
 
-[LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373) · [upparikarthik505@gmail.com](mailto:upparikarthik505@gmail.com)
+- **Nudge** — an internship-application tracker for NIAT batchmates.
+- **A key-value store in C++** — to go deep on systems fundamentals.
+
+## 📫 Let's talk
+
+If you're a founder or engineer who wants someone who ships, reviews their own work honestly, and learns fast: [LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373) · [upparikarthik505@gmail.com](mailto:upparikarthik505@gmail.com)
+
+<div align="center"><sub>Built in public · 2026</sub></div>
