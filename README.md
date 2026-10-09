@@ -19,9 +19,9 @@ I care about products that are honest about what they do: saves that only say "S
 | | Project | What it is | Highlights |
 |---|---|---|---|
 | 🧠 | **[CogniSpace](https://github.com/karthik1122-code/cognispace)** · [live](https://cognispace-sigma.vercel.app) | Notes, docs and a sprint board in one workspace, with an AI Copilot that edits the page you're on | TipTap block editor with `/` menu · Gemini responses streamed to the page, review before insert, undo · version history · drag-and-drop sprint board · ⌘K command palette · conflict-aware autosave |
-| ⚡ | **[RecoverFlow](https://github.com/karthik1122-code/recoverflow)** | Policy-first AI revenue recovery for failed Razorpay payments (Razorpay AI Buildathon, Track 03) | AI proposes → deterministic policy decides → human approves · HMAC-verified webhooks · hash-chained audit log · consent-safe English/Hinglish drafts · 20 tests, zero runtime dependencies |
-| ☁️ | [Nimbus](https://github.com/karthik1122-code/nimbus) | AI analytics SaaS landing/dashboard with 3D telemetry visuals | Next.js, React 19, Tailwind v4 |
-| 🍽️ | [Balaji Family Dhaba](https://github.com/karthik1122-code/balaji-chilukur-family-dhaba) | Digital menu site for a family restaurant | Semantic HTML, CSS, vanilla JS |
+| ⚡ | **[RecoverFlow](https://github.com/karthik1122-code/recoverflow)** · [live](https://recoverflow-ten.vercel.app) | Policy-first AI revenue recovery for failed Razorpay payments (Razorpay AI Buildathon, Track 03) | AI proposes → deterministic policy decides → human approves · HMAC-verified webhooks · hash-chained audit log · consent-safe English/Hinglish drafts · 20 tests, zero runtime dependencies |
+| ☁️ | [Nimbus](https://github.com/karthik1122-code/nimbus) | AI analytics product site, front-end showcase with simulated data | Next.js, React 19, Tailwind v4 |
+| 🍽️ | [Balaji Family Dhaba](https://github.com/karthik1122-code/balaji-chilukur-family-dhaba) · [live](https://balaji-chilukur-family-dhaba-fawn.vercel.app) | Digital menu site for a family restaurant | Semantic HTML, CSS, vanilla JS |
 
 ### 🛠️ Stack
 
