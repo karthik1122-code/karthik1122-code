@@ -7,7 +7,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthik-uppari-4005a7373)
 [![Email](https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upparikarthik505@gmail.com)
 [![CogniSpace](https://img.shields.io/badge/Live-CogniSpace-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace-sigma.vercel.app)
-[![RecoverFlow](https://img.shields.io/badge/Live-RecoverFlow-06b6d4?style=for-the-badge&logo=vercel&logoColor=white)](https://recoverflow-ten.vercel.app)
+[![RecoverFlow](https://img.shields.io/badge/Live-RecoverFlow-06b6d4?style=for-the-badge&logo=render&logoColor=white)](https://recoverflow-0qjg.onrender.com)
+[![DocuMind](https://img.shields.io/badge/Live-DocuMind-f59e0b?style=for-the-badge&logo=vercel&logoColor=white)](https://documind-opal-alpha.vercel.app)
+[![AgentGate](https://img.shields.io/badge/Live-AgentGate-facc15?style=for-the-badge&logo=vercel&logoColor=black)](https://agentgate-lake.vercel.app)
 
 </div>
 
@@ -29,14 +31,28 @@ What I care about: products that are honest about what they do. Saves that say "
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/karthik1122-code/recoverflow"><img src="assets/recoverflow.svg" alt="RecoverFlow" width="100%"/></a>
-<br/><a href="https://recoverflow-ten.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/karthik1122-code/recoverflow"><b>Code</b></a>
+<br/><a href="https://recoverflow-0qjg.onrender.com"><b>Live demo</b></a> · <a href="https://github.com/karthik1122-code/recoverflow"><b>Code</b></a>
 </td>
 </tr>
 <tr>
 <td align="center"><a href="https://cognispace-sigma.vercel.app"><img src="assets/cognispace-landing.png" alt="CogniSpace landing page" width="100%"/></a></td>
-<td align="center"><a href="https://recoverflow-ten.vercel.app"><img src="assets/recoverflow-landing.png" alt="RecoverFlow landing page" width="100%"/></a></td>
+<td align="center"><a href="https://recoverflow-0qjg.onrender.com"><img src="assets/recoverflow-landing.png" alt="RecoverFlow landing page" width="100%"/></a></td>
 </tr>
 </table>
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://agentgate-lake.vercel.app"><img src="assets/agentgate-landing.png" alt="AgentGate landing page" width="100%"/></a>
+<br/><a href="https://agentgate-lake.vercel.app"><b>AgentGate — live</b></a> · <a href="https://github.com/karthik1122-code/agentgate"><b>Code</b></a>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://documind-opal-alpha.vercel.app"><img src="assets/documind-landing.png" alt="DocuMind landing page" width="100%"/></a>
+<br/><a href="https://documind-opal-alpha.vercel.app"><b>DocuMind — live</b></a> · <a href="https://github.com/karthik1122-code/documind"><b>Code</b></a>
+</td>
+</tr>
+</table>
+
 
 <details>
 <summary><b>🧠 CogniSpace — how it works</b></summary>
@@ -56,8 +72,27 @@ What I care about: products that are honest about what they do. Saves that say "
 - **Flow:** failed payment → evidence-based diagnosis → policy engine → one bounded action → human approval → audit trail. The AI never moves money on its own.
 - **Policy codes:** `NO_CONSENT`, `HIGH_VALUE_REVIEW`, `EXCEPTION_QUEUE`, `LOW_CONFIDENCE`, `HUMAN_GATE`.
 - **Security:** HMAC-verified Razorpay webhooks, idempotent processing, hash-chained audit log, strict CSP, only `public/` is served.
-- **Quality:** zero runtime dependencies, 20 passing tests, a 21-scenario held-out evaluation suite, CI on every push.
+- **Quality:** zero runtime dependencies, 40+ passing tests, a 21-scenario held-out evaluation suite, CI on every push.
 - **Honest limits:** demo data is synthetic and Razorpay is Test Mode only.
+</details>
+
+<details>
+<summary><b>🚦 AgentGate — how it works</b></summary>
+
+- **What it is:** a gate between an AI agent and its tools. Every tool call is checked against a JSON policy you can read. Default is deny.
+- **Flow:** agent proposes a call → policy allows, holds for a person, or denies → approved calls run once → every step lands in a hash-chained log that shows if anyone edits it.
+- **Try it:** the public playground on the landing page runs real policy decisions with no sign-in. The dashboard (runs, approvals, policy) runs on Render with Postgres.
+- **Quality:** 75 passing tests; strict CSP, no inline scripts.
+- **Honest limits:** the "world" the agent acts on is simulated.
+</details>
+
+<details>
+<summary><b>📄 DocuMind — how it works</b></summary>
+
+- **What it is:** document question answering where every answer is marked at its source. Answers are extractive, so the text comes from your documents rather than being invented.
+- **Retrieval:** BM25 plus LSA hybrid ranking, written from scratch. Zero runtime dependencies.
+- **Safety:** rate limited (20 requests a minute), 29 passing tests, strict CSP.
+- **Honest limits:** it finds and quotes passages; it does not write new answers.
 </details>
 
 **Also built:** [Nimbus](https://github.com/karthik1122-code/nimbus) (AI analytics product site, front-end showcase with simulated data) · [Balaji Family Dhaba](https://github.com/karthik1122-code/balaji-chilukur-family-dhaba) ([live](https://balaji-chilukur-family-dhaba-fawn.vercel.app), digital menu site)
