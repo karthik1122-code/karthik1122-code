@@ -87,11 +87,6 @@ What I care about: products that are honest about what they do. Saves that say "
 | Apr–Jul 2024 | **Student Intern, Airbac Labs** — machine learning for stock prediction |
 | Aug 2024 | **Volunteer, Rubaroo** — STEM awareness for 100+ students |
 
-## 🔭 Next up
-
-- **Nudge** — an internship-application tracker for NIAT batchmates.
-- **A key-value store in C++** — to go deep on systems fundamentals.
-
 ## 📫 Let's talk
 
 If you're a founder or engineer who wants someone who ships, reviews their own work honestly, and learns fast: [LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373) · [upparikarthik505@gmail.com](mailto:upparikarthik505@gmail.com)
