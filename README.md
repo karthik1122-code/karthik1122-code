@@ -4,6 +4,7 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-karthikuppari.vercel.app-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://karthikuppari.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthik-uppari-4005a7373)
 [![Email](https://img.shields.io/badge/Email-Say_hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:upparikarthik505@gmail.com)
 [![CogniSpace](https://img.shields.io/badge/Live-CogniSpace-6366f1?style=for-the-badge&logo=vercel&logoColor=white)](https://cognispace-sigma.vercel.app)
