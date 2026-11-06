@@ -7,7 +7,7 @@ Building backend-heavy web products and shipping them live
 
 I like the part of software that has to be right: payments that must never be processed twice, answers that must point to their source, saves that must not lie. I build the whole product, test it properly and put it online.
 
-I'm looking for internships at product companies and early-stage startups.
+I'm looking for internships at product companies and early-stage startups, remote or in Hyderabad.
 
 ### What I'm Building
 
