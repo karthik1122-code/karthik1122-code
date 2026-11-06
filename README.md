@@ -1,7 +1,7 @@
 # Karthik Uppari
 
 I build backend-heavy web products and ship them live. B.Tech CS (AI/ML) at NIAT, Hyderabad (2025–2029).
-Looking for internships at product companies and early-stage startups: remote, Hyderabad or San Francisco.
+Looking for internships at product companies and early-stage startups: remote, Hyderabad.
 
 [Portfolio](https://karthikuppari.vercel.app) · [LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373) · upparikarthik505@gmail.com
 
