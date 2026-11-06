@@ -1,13 +1,26 @@
-### Karthik Uppari
+## Hi 👋 I'm Karthik Uppari
 
-I build backend-heavy web products and ship them live. CS (AI/ML) student at NIAT, Hyderabad.
+CS (AI/ML) student at NIAT, Hyderabad<br>
+Building backend-heavy web products and shipping them live
 
-Things I've built:
+### About Me
 
-- [RecoverFlow](https://recoverflow-ten.vercel.app): diagnoses failed payments and proposes one safe fix, with every decision logged. Node.js, PostgreSQL.
-- [DocuMind](https://documind-opal-alpha.vercel.app): answers questions about docs and highlights the exact source sentence. BM25 + LSA, from scratch.
-- [CogniSpace](https://cognispace-sigma.vercel.app): notes and a sprint board with an AI Copilot. React, Express, MongoDB.
-- [AgentGate](https://agentgate-lake.vercel.app): a policy gate that checks every tool call an AI agent makes. Node.js, PostgreSQL.
-- [SpendLog](https://spendlog-e525.onrender.com): an expense tracker. React, Express, MongoDB.
+I like the part of software that has to be right: payments that must never be processed twice, answers that must point to their source, saves that must not lie. I build the whole product, test it properly and put it online.
 
-Open to internships. [karthikuppari.vercel.app](https://karthikuppari.vercel.app) · [LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373) · upparikarthik505@gmail.com
+I'm looking for internships at product companies and early-stage startups.
+
+### What I'm Building
+
+**[RecoverFlow](https://recoverflow-ten.vercel.app)**: when a Razorpay payment fails, RecoverFlow works out why and proposes one safe next step. A person approves anything risky, and every decision goes into a tamper-evident log. Built on Node.js and PostgreSQL, where each webhook is processed exactly once.
+
+**[DocuMind](https://documind-opal-alpha.vercel.app)**: ask a question about documentation and get the exact sentence, highlighted on the original page, or an honest "not in the docs". The search (BM25 + LSA) is written from scratch.
+
+**[CogniSpace](https://cognispace-sigma.vercel.app)**: notes and a sprint board in one workspace, with an AI Copilot that edits the page you're on. React, Express, MongoDB and Gemini.
+
+Also: [AgentGate](https://agentgate-lake.vercel.app), a safety gate for AI agents, and [SpendLog](https://spendlog-e525.onrender.com), an expense tracker.
+
+### Connect
+
+- Portfolio: [karthikuppari.vercel.app](https://karthikuppari.vercel.app)
+- [LinkedIn](https://www.linkedin.com/in/karthik-uppari-4005a7373)
+- Email: upparikarthik505@gmail.com
